@@ -1,0 +1,14 @@
+region: noset
+cidr: noset
+subnets: 
+  - 
+    - name: noset
+    - cidr: noset
+    - az: noset
+natgw: noset
+igw: noset
+rttable:
+  - 
+    - name: noset
+    - ingress: noset
+    - egress: noset

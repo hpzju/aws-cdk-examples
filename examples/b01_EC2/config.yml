@@ -1,0 +1,28 @@
+# Basic
+region: noset
+ami_id: noset
+instance_type: noset
+instance_quantity: noset
+
+# IAM
+iam_role: noset
+
+# Networking
+vpc_id: noset
+subnet_id: noset
+public_ip: noset
+placement_group: noset
+security_groups:
+  - noset
+
+# Storage
+block_storage:
+  - noset
+
+# Labels
+tags:
+  - noset
+
+# UserData
+userdata: |
+  sudo apt install -y nginx
