@@ -6,6 +6,7 @@ instance_quantity: noset
 
 # IAM
 iam_role: noset
+key_pair: noset
 
 # Networking
 vpc_id: noset
