@@ -2,7 +2,7 @@ from aws_cdk import core
 import aws_cdk.aws_ec2 as ec2
 import os
 
-from utils.load_config import load_config
+from a00_utils.load_config import load_config
 
 
 class ExampleStack(core.Stack):
