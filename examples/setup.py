@@ -15,8 +15,8 @@ setuptools.setup(
 
     author="author",
 
-    package_dir={"": "examples"},
-    packages=setuptools.find_packages(where="examples"),
+    package_dir={"": "."},
+    packages=setuptools.find_packages(where="."),
 
     install_requires=[
         "aws-cdk.core==1.38.0",
