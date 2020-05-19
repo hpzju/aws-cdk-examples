@@ -1,19 +1,19 @@
 # Basic
-region: noset
-ami_id: noset
-instance_type: noset
-instance_quantity: noset
+Region: noset
+ImageID: noset
+InstanceType: noset
+InstanceyQty: noset
 
 # IAM
-iam_role: noset
-key_pair: noset
+IAMRole: noset
+KeyName: noset
 
 # Networking
 vpc_id: noset
 subnet_id: noset
 public_ip: noset
 placement_group: noset
-security_groups:
+InstanceSecurityGroup:
   - noset
 
 # Storage
